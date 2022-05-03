@@ -1,0 +1,44 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hold-homepage-wrapper{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    .holding-title {
+        font-size: clamp(3.2rem, 7vw, 9rem);
+        color: #f9ff38e6;;
+        text-align: center;
+    }
+
+    .sub-holding-title{
+        font-style: italic;
+        font-size: clamp(2rem, 3vw, 8rem);
+        text-align: center;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+}

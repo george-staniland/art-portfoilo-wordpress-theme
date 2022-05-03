@@ -1,0 +1,38 @@
+// Header
+#header-container {
+    .navbar {
+        @include media-breakpoint-up(md) {
+            min-height: 100px;
+        }
+    }
+    a {
+        color: $custom-black;
+    }
+    #george-menu {
+       justify-content: flex-end;
+       .menu-item span {
+           font-size: 2rem;
+           transition: all .1s ease-in-out;
+           &:hover {
+               color: $yellow;
+           }
+       }
+    }
+    .site-title {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}
+
+// Footer
+.george-footer {
+    border-top: 2px solid black;
+    .to-top-btn {
+        color: $custom-black;
+        font-size: 1.7rem;
+    }
+    h4 {
+        font-size: 1.7rem;
+    }
+    color: $custom-black;
+}

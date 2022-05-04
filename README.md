@@ -1,4 +1,4 @@
 # photo-portfolio-wp
 
 A custom WordPress child theme.
-Uses: Bootstrap 5, Scss
+Uses: Bootstrap 5 and Scss
